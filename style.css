@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('gambar-alam.png.jpeg'); /* Nama file gambar */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #222;
+}
+
+/* Header */
+h1 {
+    background-color: rgba(0, 109, 91, 0.85); /* Semi-transparan */
+    color: white;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Navigasi */
+nav {
+    background-color: rgba(0, 168, 142, 0.9); /* Semi-transparan */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Konten teks tengah */
+p, h2 {
+    text-align: center;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Tabel dan Form */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+table, th, td {
+    border: 1px solid #666;
+    padding: 8px;
+    text-align: center;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
